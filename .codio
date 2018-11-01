@@ -1,0 +1,14 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Build and Run": "clear && g++ -c main.cpp && g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system && ./solution"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Viewer": "https://{{domain3000}}/"
+  },
+  "debugger": [{"type":"GDB","command":"./sfml-app","before":"g++ -c main.cpp && g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system","uuid":"0a37f3e7-4d55-4797-da32-31ec0f97eec3","name":"main.cpp"}]
+}

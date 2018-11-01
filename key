@@ -1,0 +1,8 @@
+// change int level = 4; to 3
+// 		Square squaresArray[ MaxBoardSize * MaxBoardSize];
+    // change maxboardsize
+// 						// Increment the number of moves each time mouse is clicked
+//movenum++
+
+//function to generate squares
+//size of screen, num per side
